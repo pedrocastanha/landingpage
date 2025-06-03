@@ -1,5 +1,4 @@
 import React from 'react';
-import aiSales from '../assets/images/ai-sales.webp';
 
 const CallToAction: React.FC = () => {
   return (
@@ -64,7 +63,7 @@ const CallToAction: React.FC = () => {
           
           <div className="hidden lg:block">
             <img 
-              src={aiSales} 
+              // src={aiSales} 
               alt="IA para vendas" 
               className="rounded-xl shadow-2xl w-full h-auto transform rotate-3 hover:rotate-0 transition-all duration-500"
             />

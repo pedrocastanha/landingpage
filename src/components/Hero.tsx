@@ -1,5 +1,5 @@
 import React from 'react';
-import heroImage from '../assets/images/hero-bg.jpg';
+// import heroImage from '../assets/images/hero-bg.jpg';
 
 const Hero: React.FC = () => {
   return (
@@ -7,7 +7,7 @@ const Hero: React.FC = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src={heroImage} 
+          // src={heroImage} 
           alt="IA para vendas digitais" 
           className="w-full h-full object-cover"
         />

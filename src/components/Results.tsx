@@ -1,5 +1,5 @@
 import React from 'react';
-import benefits from '../assets/images/benefits.jpg';
+// import benefits from '../assets/images/benefits.jpg';
 
 const Results: React.FC = () => {
   return (
@@ -48,7 +48,7 @@ const Results: React.FC = () => {
           
           <div className="order-1 lg:order-2">
             <img 
-              src={benefits} 
+              // src={benefits} 
               alt="Resultados com IA" 
               className="rounded-xl shadow-lg w-full h-auto"
             />
